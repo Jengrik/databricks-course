@@ -2,7 +2,7 @@
 
 Esta guía describe los elementos principales de la interfaz de **Databricks Free Edition**, su propósito y cómo aprovecharlos durante el curso.
 
-![Entorno Databricks](documentation/images/databricks-environment.png)
+![Entorno Databricks](./images/databricks-environment.png)
 
 ---
 
