@@ -1,0 +1,47 @@
+#* Operate System
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#* Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.env
+
+#* VS Code / JetBrains
+.vscode/**
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.iml
+
+#* Databricks / MLflow / Experimentos locales
+mlruns/
+databricks/driver/logs/
+databricks-results/
+
+#* Archivos temporales del sistema/editores
+*.swp
+*.swo
+*~
+Thumbs.db
+ehthumbs.db
+
+#* Reportes/artefactos
+reports/
+outputs/
+logs/
+
+.databricks
+
+.databricks

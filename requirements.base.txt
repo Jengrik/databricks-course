@@ -1,0 +1,29 @@
+#* Núcleo científico
+numpy==2.1.*
+pandas==2.2.*
+matplotlib==3.9.*
+seaborn==0.13.*
+
+#* Apache Spark local (opcional)
+pyspark==3.5.*
+
+#* Machine Learning + tracking de experimentos
+scikit-learn==1.5.*
+mlflow>=2.9,<3.0
+
+#* Utilidades de IO y validación
+pyarrow==16.*
+fsspec==2024.*
+
+#* Jupyter
+ipykernel>=6.29,<7
+jupyterlab==4.*
+
+#* CLI y tooling para integración con Databricks/GitHub
+databricks-sdk>=0.6,<1.0  # SDK Python moderno
+gitpython==3.1.*          # Automatizaciones simples con Git
+
+#* Desarrollo/Calidad
+black==24.8.0
+isort==5.13.*
+flake8==7.1.*
